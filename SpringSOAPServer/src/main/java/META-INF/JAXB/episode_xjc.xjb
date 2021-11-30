@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.11.29 a las 08:05:40 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://espe.edu.ec/arqsoftware/SpringSOAPServer/ws">
+    <schemaBindings map="false">
+      <package name="ec.edu.espe.arqsoftware.springsoapserver.ws"/>
+    </schemaBindings>
+    <bindings scd="tns:obtenerPartidosRequest">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.ObtenerPartidosRequest"/>
+    </bindings>
+    <bindings scd="tns:obtenerPartidosResponse">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.ObtenerPartidosResponse"/>
+    </bindings>
+    <bindings scd="~tns:PartidoRS">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.PartidoRS"/>
+    </bindings>
+    <bindings scd="tns:obtenerLocalidadesRequest">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.ObtenerLocalidadesRequest"/>
+    </bindings>
+    <bindings scd="tns:obtenerLocalidadesResponse">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.ObtenerLocalidadesResponse"/>
+    </bindings>
+    <bindings scd="~tns:LocalidadRS">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.LocalidadRS"/>
+    </bindings>
+    <bindings scd="tns:decrementarLocalidadeDisponibilidadRequest">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.DecrementarLocalidadeDisponibilidadRequest"/>
+    </bindings>
+    <bindings scd="tns:decrementarLocalidadeDisponibilidadResponse">
+      <class ref="ec.edu.espe.arqsoftware.springsoapserver.ws.DecrementarLocalidadeDisponibilidadResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
